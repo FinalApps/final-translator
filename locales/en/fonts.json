@@ -1,0 +1,33 @@
+{
+  "title": "Templates",
+  "action": "Upload Font",
+  "toast" :{
+    "saved":  "New font added",
+    "delete" : "Font removed"
+  },
+  "modal": {
+    "title": "Custom fonts",
+    "close": "Close",
+    "supported": "Supported font formats are: {{formats}}",
+    "select": "Select a font",
+    "name": "Font name"
+  },
+  "error": {
+    "unsupported": "Unsupported file format",
+    "valid": "Select a valid file",
+    "name": "Enter the font name",
+    "upload": "Error in uploading font"
+  },
+  "table": {
+    "name": "Name",
+    "dummy": "The fast brown fox jumps over the lazy dog",
+    "example": "Example",
+    "actions": "Actions",
+    "download": "Download",
+    "delete": "Delete"
+  },
+  "empty":{
+    "title":"Upload a font to get started",
+    "body":"You can upload your own custom fonts here and view them in the template customizer"
+  }
+}

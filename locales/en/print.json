@@ -1,0 +1,30 @@
+{
+  "title": "Print",
+  "types": {
+    "title": "Templates",
+    "invoice": "Invoice",
+    "packing": "Packing Slips",
+    "refund": "Refund / Credit Notes",
+    "action": "Customize template"
+  },
+  "language": "Select language",
+  "help": "You can also print invoices from the Shopify Admin interface. Select Orders -> Click More actions -> Print with Final Invoice",
+  "sent": "Email will be sent shortly",
+  "error": "Please select one of the template types",
+  "actions": {
+    "print": "Print",
+    "send": "Send invoice",
+    "reset": "Reset",
+    "view": "View order"
+  },
+  "savebar": {
+    "title": "Unsaved changes",
+    "discard": "Discard",
+    "save": "Save"
+  },
+  "edit-banner": {
+    "title": "Edit template",
+    "body": "You can edit the invoice by clicking inside the preview."
+  },
+  "usage-limit": "Usage limit for prints exceeded"
+}

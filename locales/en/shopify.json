@@ -1,0 +1,23 @@
+{
+  "title": "Generate Snippet",
+  "subtitle": "Copy the snippet and paste into your email notification to send emails to customers",
+  "upgrade": "Upgrade to Pro to get the code snippet",
+  "items": {
+    "invoice": "Invoice",
+    "packing": "Packing Slip",
+    "credit": "Refund / Credit Note",
+    "theme": "Theme Frontend"
+  },
+  "placeholder": "Download PDF version",
+  "copy": "Copy",
+  "preview": "Preview",
+  "snippet": {
+    "label": "Your link label",
+    "orders": "Copy this snippet",
+    "draft": "For draft orders"
+  },
+  "toasts": {
+    "copied": "Copied to clipboard",
+    "preview": "Only for preview"
+  }
+}

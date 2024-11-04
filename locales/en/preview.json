@@ -1,0 +1,24 @@
+{
+  "title": "Email Preview",
+  "sent": "Mail will be sent shortly",
+  "types": {
+    "title": "Template types",
+    "invoice": "Invoice",
+    "packing": "Packing Slips",
+    "refund": "Refund / Credit Notes"
+  },
+  "email": {
+    "to": "To",
+    "cc": "CC",
+    "bcc": "BCC",
+    "subject": "Subject"
+  },
+  "actions": {
+    "cancel": "Cancel",
+    "send": "Send Email"
+  },
+  "banner": {
+    "title": "Edit the content",
+    "body": "Click inside each element to edit the contents. Click send after finishing the modification."
+  }
+}

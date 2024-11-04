@@ -1,0 +1,42 @@
+{
+  "title": "Invoice Reports",
+  "action": "New request",
+  "download": "Download ZIP",
+  "toast": "New request created",
+  "empty": {
+    "title": "No requests found",
+    "body": "Click New request to request a bulk download and wait for it to complete"
+  },
+  "table": {
+    "request": "Request",
+    "status": "Status",
+    "requested": "Requested on",
+    "period": "Period",
+    "action": "Action"
+  },
+  "badge": {
+    "completed": "Completed",
+    "pending": "Pending"
+  },
+  "modal": {
+    "title": "New request",
+    "select_all": "Select all",
+    "actions": {
+      "create": "Create",
+      "cancel": "Cancel"
+    },
+    "date": {
+      "title": "Date range",
+      "start": "Start",
+      "end": "End"
+    },
+    "email": {
+      "title": "Email address",
+      "select": "Select email",
+      "contact": "Contact email",
+      "sales": "Sales email",
+      "other": "Other email",
+      "custom": "Custom email"
+    }
+  }
+}

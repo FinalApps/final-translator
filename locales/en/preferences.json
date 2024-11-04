@@ -1,0 +1,152 @@
+{
+  "title": "Preferences",
+  "saved_toast": "Details saved.",
+  "errors": {
+    "currency": "Currency format must contain a valid amount variable",
+    "url": "Invalid URL"
+  },
+  "store_details": {
+    "title": "Store details",
+    "description": "Details about your store will appear on your invoices",
+    "business_name": {
+      "label": "Legal Business Name",
+      "placeholder": "Enter your business name here"
+    },
+    "phone": {
+      "label": "Phone",
+      "placeholder": "Enter your phone number here"
+    },
+    "sale_email": {
+      "label": "Sales Email",
+      "placeholder": "Enter your sales email here"
+    },
+    "contact_email": {
+      "label": "Contact Email",
+      "placeholder": "Enter your contact email here"
+    },
+    "website": {
+      "label": "Website",
+      "placeholder": "Enter your website URL here"
+    },
+    "vat": {
+      "label": "VAT number",
+      "placeholder": "Enter your VAT number here"
+    },
+    "register_no": {
+      "label": "Registration number",
+      "placeholder": "Enter your registration number here"
+    }
+  },
+  "store_address": {
+    "title": "Store address",
+    "description": "The physical address of the store will appear on your invoices",
+    "address": {
+      "label": "Address",
+      "placeholder": "Enter your address here"
+    },
+    "apartment": {
+      "label": "Apartment",
+      "placeholder": "Enter your apartment here"
+    },
+    "city": {
+      "label": "City",
+      "placeholder": "Enter your city here"
+    },
+    "zip": {
+      "label": "Zip code",
+      "placeholder": "Enter your zip code here"
+    },
+    "state": {
+      "label": "Province",
+      "placeholder": "Choose your province"
+    },
+    "country": {
+      "label": "Country",
+      "placeholder": "Choose your country"
+    }
+  },
+  "social": {
+    "title": "Social Networking",
+    "description": "Social networking information your store uses online",
+    "facebook": {
+      "label": "Facebook",
+      "placeholder": "Enter your Facebook url here"
+    },
+    "twitter": {
+      "label": "Twitter",
+      "placeholder": "Enter your Twitter url here"
+    },
+    "instagram": {
+      "label": "Instagram",
+      "placeholder": "Enter your Instagram url here"
+    },
+    "pinterest": {
+      "label": "Pinterest",
+      "placeholder": "Enter your Pinterest url here"
+    },
+    "youtube": {
+      "label": "Youtube",
+      "placeholder": "Enter your Youtube url here"
+    }
+  },
+  "tax": {
+    "title": "Tax override and tax sharing",
+    "description": "Shopify tax will be replaced with the tax values that you provide as a user, and multiple taxes application is possible",
+    "warning": "Total percentage of active tax items exceeds 100%",
+    "add": "Add new tax item",
+    "remove": "Remove all",
+    "labels": {
+      "use": "Use tax override (must be enabled for custom taxes to take effect)",
+      "unit_price": "Calculate from unit price (otherwise, tax would be calculated from total price)",
+      "name": "Name",
+      "percentage": "Percentage",
+      "description": "Description (Optional)",
+      "active": "Active"
+    }
+  },
+  "formats": {
+    "title": "Standards and Formats",
+    "description": "Standards and formats are used to format product prices and order times.",
+    "invoice_number": {
+      "label": "Invoice Number Format (Custom Invoice Number)",
+      "placeholder": "Choose the Invoice Number Format"
+    },
+    "first_invoice_number": {
+      "label": "First Invoice Number",
+      "help": "Select a custom invoice number to activate this field"
+    },
+    "date_format": {
+      "label": "Date Format",
+      "placeholder": "Choose the date format"
+    },
+    "currency": {
+      "checkbox_label": "Use Customer Currency (Multi-currency)",
+      "label": "Currency Format",
+      "placeholder": "e.g.",
+      "options": "Options:"
+    }
+  },
+  "header": {
+    "title": "Header Image",
+    "description": "You can enable/disable this in the template customizer -> preview",
+    "alt": "Invoice Header Image",
+    "upload": "Upload Header Image",
+    "message": "Your image file must be less than 1MB and in the format: .jpg or .png."
+  },
+  "signature": {
+    "title": "Signature Image",
+    "description": "You can enable/disable this in the template customizer -> footer -> signature",
+    "alt": "Invoice Signature Image",
+    "upload": "Upload Signature",
+    "message": "Your signature file must be less than 1MB and in the format: .jpg or .png."
+  },
+  "logo": {
+    "alt": "Store Logo",
+    "upload": "Upload Logo",
+    "message": "Your logo file must be less than 1MB and in the format: .jpg or .png."
+  },
+  "banner": {
+    "title": "Here you can add information about your store.",
+    "body": "The appearance of this information can be previewed and customized in the templates. Tip: Help your customers identify your brand by adding your logo to your invoice."
+  }
+}

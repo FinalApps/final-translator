@@ -1,0 +1,19 @@
+{
+  "title": "Preferences",
+  "checkbox_label": "My store has multiple invoice numbers",
+  "sync": "Sync Locations",
+  "table": {
+    "location_id": "Location ID",
+    "name": "Name",
+    "invoice_no": "Invoice Number",
+    "invoice_no_placeholder": "Add invoice number"
+  },
+  "messages": {
+    "synced": "Store locations synced",
+    "updated": "Invoice numbers updated"
+  },
+  "empty": {
+    "title": "No locations found",
+    "body": "Ensure your store has multiple locations and try clicking sync locations"
+  }
+}

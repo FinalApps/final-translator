@@ -1,0 +1,27 @@
+{
+  "title": "Email Automation",
+  "details": {
+    "title": "Send via Final Invoice",
+    "body": "Turn on this setting to send emails to your customers when their order is created in Final Invoice."
+  },
+  "final": {
+    "label": "Send email from Final Invoice",
+    "action": "Test email"
+  },
+  "smtp": {
+    "title": "SMTP Setup",
+    "use": "Use custom SMTP server",
+    "host": "Host",
+    "port": "Port",
+    "user": "User",
+    "pass": "Password",
+    "actions": {
+      "reset": "Reset",
+      "save": "Save"
+    }
+  },
+  "toasts": {
+    "mail": "Mail will be sent shortly",
+    "saved": "Details saved successfully"
+  }
+}

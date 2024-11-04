@@ -1,0 +1,112 @@
+{
+  "title": "Welcome to PDF Invoice - Order printer 👋",
+  "subtitle": "Let's get you started with, Please enter your business name to continue",
+  "navigate": {
+    "next": "Next",
+    "back": "Back",
+    "finish": "Finish"
+  },
+  "store": {
+    "label": "Store / Business name",
+    "placeholder": "My Store"
+  },
+  "number": {
+    "label": "Store/Business tax number",
+    "placeholder": "GST / VAT / ABN / TRN / etc"
+  },
+  "choose": {
+    "template": "Choose a template",
+    "plan": "Choose a plan"
+  },
+  "preview": {
+    "choose": "Choose your language",
+    "translate": "Translate",
+    "description": "Click Translate to convert your invoice language. You could also change them later or add your own language/fonts. Click Finish button once done to complete setup",
+    "preview": "Template preview"
+  },
+  "switch": {
+    "label": "Plan type",
+    "monthly": "Monthly",
+    "yearly": "Yearly"
+  },
+  "steps": {
+    "1": {
+      "title": "Features preview",
+      "label": "Step 1 of 5"
+    },
+    "2": {
+      "title": "Store details",
+      "label": "Step 2 of 5"
+    },
+    "3": {
+      "title": "Choose a template",
+      "label": "Step 3 of 5"
+    },
+    "4": {
+      "title": "Template preview",
+      "label": "Step 4 of 5"
+    },
+    "5": {
+      "title": "Choose a plan",
+      "label": "Step 5 of 5"
+    }
+  },
+  "features": {
+    "1": {
+      "title": "CUSTOMIZE TEMPLATE",
+      "points": {
+        "1": "Wide range of templates",
+        "2": "Separate customization for invoice, packing and credit notes",
+        "3": "Language and font customization"
+      }
+    },
+    "2": {
+      "title": "TAX OVERRIDE",
+      "points": {
+        "1": "Override Shopify tax settings",
+        "2": "Add multiple tax rates",
+        "3": "Tax settings for line items"
+      }
+    },
+    "3": {
+      "title": "EMAIL AUTOMATION",
+      "points": {
+        "1": "Send invoices automatically on order creation",
+        "2": "Embedded code for online store to download invoices",
+        "3": "SMTP setup for sending emails"
+      }
+    },
+    "4": {
+      "title": "REPORTS",
+      "points": {
+        "1": "Generate reports for orders and credit notes",
+        "2": "Choose what to include in reports",
+        "3": "Export reports in CSV format"
+      }
+    },
+    "5": {
+      "title": "B2B INVOICING",
+      "points": {
+        "1": "Add business details to invoices",
+        "2": "Add business logo to invoices",
+        "3": "Add business registration number to invoices"
+      }
+    },
+    "6": {
+      "title": "PRINT & DOWNLOAD",
+      "points": {
+        "1": "Print invoices in bulk",
+        "2": "Download invoices in bulk",
+        "3": "Use admin panel extension to print invoices"
+      }
+    },
+    "7": {
+      "title": "CURRENCY AND DATE FORMAT",
+      "points": {
+        "1": "Customize currency format",
+        "2": "Auto detect currency of orders",
+        "3": "Multiple format options"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Templates",
+  "banner": {
+    "title": "Template customization",
+    "body": "This is the heart of our solution. Try different layouts for each document and select the one that best suits your store."
+  },
+  "items": {
+    "invoice": {
+      "title": "Invoice",
+      "subtitle": "This is the template for Invoice"
+    },
+    "packing": {
+      "title": "Packing Slips",
+      "subtitle": "This is the template for Packing Slips"
+    },
+    "refund": {
+      "title": "Refund / Credit Notes",
+      "subtitle": "This is the template for Refund / Credit Notes"
+    }
+  },
+  "actions": {
+    "customize": "Customize",
+    "change": "Change template"
+  }
+}

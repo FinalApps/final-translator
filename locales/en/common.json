@@ -1,0 +1,63 @@
+{
+  "links": {
+    "home": "Home",
+    "orders": "Orders",
+    "templates": "Templates",
+    "email": "Send to Customer",
+    "customers": "Customers (B2B)",
+    "reports": "Invoice Reports",
+    "plans": "Plans & Pricing",
+    "settings": "Preferences"
+  },
+  "error": {
+    "title": "Error",
+    "body": "An error occurred",
+    "action": "Contact support"
+  },
+  "tabs": {
+    "preferences": {
+      "general": "General",
+      "locations": "Locations"
+    },
+    "reports": {
+      "all": "All",
+      "bulk": "Bulk Download"
+    },
+    "email": {
+      "shopify": "Send via Shopify",
+      "final": "Send via Final Invoice",
+      "customize": "Customize Email"
+    },
+    "templates": {
+      "customize": "Customize",
+      "fonts": "Fonts",
+      "languages": "Languages"
+    }
+  },
+  "remove-branding": {
+    "title": "Do you want to remove the Final Invoice branding from your invoices?",
+    "action": "Chat with us",
+    "body": "Chat with us to remove the \"Powered by Final Invoice\" branding - it's free and takes only a few minutes"
+  },
+  "premium-banner": {
+    "title": "Premium feature",
+    "body": "This feature is only available to Premium and Enterprise users.",
+    "action": "Upgrade plan"
+  },
+  "pro-banner": {
+    "title": "Pro feature",
+    "body": "This feature is only available to Pro, Premium and Enterprise users.",
+    "action": "Upgrade plan"
+  },
+  "usage_banner": {
+    "title": "Warning",
+    "action": "Upgrade plan",
+    "body": "You've hit your usage limit. Upgrade your plan to continue using these features seamlessly.",
+    "limits": {
+      "pdfs": "Usage limit for PDFs exceeded",
+      "prints": "Usage limit for prints exceeded",
+      "mails": "Usage limit for mails exceeded",
+      "edits": "Usage limit for edits exceeded"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Welcome to Final Invoice",
+  "actions": {
+    "finish": "Finish",
+    "back": "Go back",
+    "next": "Next"
+  },
+  "messages": {
+    "welcome": "This is your orders page, Let's have a look around",
+    "print": "Go ahead and hit print on your first invoice",
+    "preview": "Here's your preview! You can edit the text in this if you want. Let's get this printed",
+    "branding": "You'll notice final invoice branding on your invoices.",
+    "chat": "Chat with our live agents to have it removed for Free",
+    "finish": "That's it! You can go ahead and print your invoice 🎉"
+  }
+}

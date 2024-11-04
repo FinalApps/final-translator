@@ -1,0 +1,36 @@
+{
+  "pin": {
+    "title": "Pin us to your navigation! 📌",
+    "body": "Click on the pin in the top right of your screen to keep Final Invoice easily accessible within your Shopify admin."
+  },
+  "pdf": {
+    "title": "PDF",
+    "subtitle": "Downloaded"
+  },
+  "mail": {
+    "title": "Mails",
+    "subtitle": "Sent"
+  },
+  "invoice": {
+    "title": "Invoices",
+    "subtitle": "Printed"
+  },
+  "recent": {
+    "orders": "Recent orders",
+    "draft_orders": "Recent draft orders",
+    "print": "Print",
+    "view_more": "View more"
+  },
+  "chat": {
+    "title": "Have questions about the app? 🤔",
+    "action": "Chat with us",
+    "p1": "We are looking forward to hear your questions, feedbacks, and suggestions.",
+    "p2": "Contact us for quick support or feedbacks."
+  },
+  "faq": {
+    "title": "Don't know how to use it? 🧐",
+    "action": "Open FAQ",
+    "p1": "Our FAQ helps merchants to learn more about our app and makes easy to use it.",
+    "p2": "Read the FAQ if you have any doubts."
+  }
+}

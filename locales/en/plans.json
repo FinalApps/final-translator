@@ -1,0 +1,53 @@
+{
+  "title": "Plans & Pricing",
+  "activated": "New plan activated",
+  "popular": "POPULAR",
+  "switch": {
+    "label": "Plan type",
+    "monthly": "Monthly",
+    "yearly": "Yearly"
+  },
+  "actions": {
+    "current": "Current plan",
+    "activate": "Activate"
+  },
+  "short": { "month": "mo", "year": "yr", "offer": "off" },
+  "free": {
+    "1": "30 prints, downloads, mails / month",
+    "2": "Invoice translation",
+    "3": "10 print edits",
+    "4": "Draft orders",
+    "5": "Refund / credit notes",
+    "6": "Live chat support",
+    "7": "Tax override",
+    "title": "Free"
+  },
+  "pro": {
+    "1": "Unlimited invoice print, mail and download",
+    "5": "Frontend / customer accounts page download",
+    "2": "Custom fonts",
+    "3": "No watermarks",
+    "4": "Automatic emails",
+    "6": "Customer multi-currency",
+    "7": "Email customization",
+    "8": "Custom invoice number",
+    "title": "Pro"
+  },
+  "premium": {
+    "1": "SMTP setup",
+    "2": "Multi-locations",
+    "3": "Invoice reports",
+    "4": "Bulk downloads",
+    "5": "Email PDF attachment",
+    "6": "Customers B2B",
+    "title": "Premium"
+  },
+  "enterprise": {
+    "1": "Custom invoice design",
+    "2": "Custom invoice reports",
+    "3": "Custom billing application features",
+    "4": "Dedicated support manager",
+    "5": "Recommended for Shopify Plus",
+    "title": "Enterprise"
+  }
+}

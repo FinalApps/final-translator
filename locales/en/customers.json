@@ -1,0 +1,24 @@
+{
+  "title": "Customers",
+  "search": "Search customer..",
+  "table": {
+    "email": "Email",
+    "name": "Customer Name",
+    "location": "Location",
+    "last_order": "Last order",
+    "cin": "CIN Number",
+    "cin_placeholder": "Add CIN number"
+  },
+  "messages": {
+    "updated": "Customer details updated"
+  },
+  "empty": {
+    "title": "No customers found",
+    "body": "Ensure your store has enough customers or try creating new customers in the admin page"
+  },
+  "banner": {
+    "title": "Customer identification number",
+    "body": "For a valid B2B invoice, it must also include your customer's identification numbers (e.g. VAT, GST, TRN, ABN, etc).",
+    "action": "Learn more"
+  }
+}

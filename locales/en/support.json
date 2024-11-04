@@ -1,0 +1,27 @@
+{
+  "title": "Support",
+  "help": {
+    "title": "Get help from us",
+    "description": "You can contact us via the live chat widget below or directly to our email",
+    "action": "Open live chat"
+  },
+  "mail": {
+    "toast": "Copied",
+    "action": "Copy"
+  },
+  "whatsapp": {
+    "title": "Whatsapp support",
+    "description": "You can Whatsapp us to get support. (Typically replies the same day) We should be available most days but will have lesser availability on Saturdays and Sundays.",
+    "action": "Whatsapp us"
+  },
+  "setup": {
+    "title": "Get help setting up the app",
+    "description": "Get help setting up the app by scheduling a video call with us",
+    "action": "Schedule call"
+  },
+  "feature": {
+    "title": "Feature requests",
+    "description": "We are constantly working to improve your experience by adding new features.vYou can request features and upvote good features. We promise we'll try to attempt most of them in the coming weeks :) ",
+    "action": "Request features here"
+  }
+}

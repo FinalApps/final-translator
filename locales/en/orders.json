@@ -1,0 +1,110 @@
+{
+  "title": "Orders",
+  "search": "Search orders...",
+  "sent": "Invoice will be sent shortly",
+  "bulk": "Print orders",
+  "welcome": {
+    "title": "Welcome to Final Invoice! 👋",
+    "body": "This is where you can find your recent orders. You can filter it by Type, Payment Status, etc. Click on print button to export your PDFs. <br/> Questions? Read our <1>FAQ</1> or <3>book a free demo</3> with us."
+  },
+  "admin": {
+    "title": "Print invoice from the Shopify admin! 🖨️",
+    "body": "You can also Print Invoices from the <1>Shopify Admin.</1> Select <3>Orders</3> → Click <5>More Actions</5> → <7>Print with Final Invoice</7>"
+  },
+  "name": {
+    "singular": "order",
+    "plural": "orders"
+  },
+  "items": {
+    "all": "All",
+    "draft": "Draft orders",
+    "credit": "Credit notes"
+  },
+  "table": {
+    "order": "Order",
+    "date": "Date",
+    "customer": "Customer",
+    "total": "Total",
+    "payment": "Payment",
+    "fulfillment": "Fulfillment",
+    "invoice_status": "Invoice Status",
+    "actions": "Actions",
+    "null": "NIL"
+  },
+  "actions": {
+    "download": "Download invoice",
+    "print": "Print invoice",
+    "send": {
+      "title": "Send invoice",
+      "quick": "Quick send",
+      "preview": "Preview & send"
+    }
+  },
+  "filters": {
+    "date": {
+      "label": "Date",
+      "today": "Today",
+      "last_7": "Last 7 days",
+      "last_30": "Last 30 days",
+      "last_90": "Last 90 days",
+      "last_12": "Last 12 months",
+      "all": "All time",
+      "custom": "Custom"
+    },
+    "fulfillment": {
+      "label": "Fulfillment State",
+      "fulfilled": "Shipped",
+      "all": "All",
+      "partial": "Partially fulfilled",
+      "unshipped": "Unshipped",
+      "unfulfilled": "Unfulfilled"
+    },
+    "status": {
+      "label": "Status",
+      "all": "All",
+      "open": "Open",
+      "completed": "Completed",
+      "invoice": "Invoice sent",
+      "closed": "Closed",
+      "cancelled": "Cancelled"
+    },
+    "payment": {
+      "label": "Payment Status",
+      "any": "Any",
+      "authorized": "Authorized",
+      "pending": "Pending",
+      "paid": "Paid",
+      "partially_paid": "Partially paid",
+      "partially_refunded": "Partially refunded",
+      "refunded": "Refunded",
+      "voided": "Voided",
+      "unpaid": "Unpaid"
+    }
+  },
+  "payment": {
+    "pending": "Pending",
+    "authorized": "Authorized",
+    "partially_paid": "Partially paid",
+    "partially_refunded": "Partially refunded",
+    "voided": "Voided",
+    "paid": "Paid",
+    "refunded": "Refunded",
+    "expired": "Expired"
+  },
+  "fulfillment": {
+    "unfulfilled": "Unfulfilled",
+    "partiallY_fulfilled": "Partially fulfilled",
+    "fulfilled": "Fulfilled",
+    "restocked": "Restocked",
+    "pending_fulfillment": "Pending fulfillment",
+    "open": "Open",
+    "in_progress": "In progress",
+    "on_hold": "On hold",
+    "scheduled": "Scheduled"
+  },
+  "invoice": {
+    "sent": "Sent",
+    "pending": "Pending"
+  },
+  "usage_limit": "Usage limit for pdfs exceeded"
+}

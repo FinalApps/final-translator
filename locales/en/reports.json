@@ -1,0 +1,92 @@
+{
+  "title": "Invoice Reports",
+  "action": "New report",
+  "download": "Download CSV",
+  "toast": "New request created",
+  "empty": {
+    "title": "No reports found",
+    "body": "Click New report to request a report creation and wait for it to complete"
+  },
+  "table": {
+    "report": "Report",
+    "status": "Status",
+    "requested": "Requested on",
+    "period": "Period",
+    "action": "Action"
+  },
+  "badge": {
+    "completed": "Completed",
+    "pending": "Pending"
+  },
+  "modal": {
+    "title": "New report",
+    "select_all": "Select all",
+    "actions": {
+      "create": "Create",
+      "cancel": "Cancel"
+    },
+    "type": {
+      "label": "Report type",
+      "all": "All",
+      "credit": "Credit notes"
+    },
+    "overview": {
+      "title": "Overview",
+      "name": "Order name",
+      "id": "Order id",
+      "number": "Order number (includes custom invoice number)",
+      "created": "Created at",
+      "payment": "Payment mode"
+    },
+    "customer": {
+      "title": "Customer",
+      "id": "Customer id",
+      "first_name": "Customer first name",
+      "last_name": "Customer last name"
+    },
+    "total": {
+      "title": "Total",
+      "amount": "Total amount",
+      "tax": "Total tax",
+      "discount": "Total discount",
+      "shipping": "Total shipping"
+    },
+    "item": {
+      "title": "Line items",
+      "item_title": "Item title",
+      "id": "Item id",
+      "sku": "Item sku",
+      "price": "Item price",
+      "quantity": "Item quantity",
+      "total": "Item total (before tax)",
+      "tax_total": "Item total (after tax)",
+      "hsn": "HSN"
+    },
+    "address": {
+      "title": "Address",
+      "billing": {
+        "address": "Billing address",
+        "state": "Billing state",
+        "phone": "Billing phone"
+      },
+      "shipping": {
+        "address": "Shipping address",
+        "state": "Shipping state",
+        "phone": "Shipping phone"
+      }
+    },
+    "date": {
+      "title": "Date range",
+      "start": "Start",
+      "end": "End"
+    },
+    "email": {
+      "title": "Email address",
+      "select": "Select email",
+      "contact": "Contact email",
+      "sales": "Sales email",
+      "other": "Other email",
+      "custom": "Custom email"
+    }
+  }
+}

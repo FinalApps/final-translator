@@ -1,0 +1,337 @@
+{
+  "title": "Customize",
+  "toasts": {
+    "saved": "Template configuration saved",
+    "reset": "Template configuration resetted"
+  },
+  "actions": {
+    "save": "Save Template",
+    "more": "Actions",
+    "print": "Print",
+    "reset": "Reset to default"
+  },
+  "badges": {
+    "pro": "Pro +",
+    "premium": "Premium +"
+  },
+  "metafields": {
+    "property": "Property",
+    "add": "Add property",
+    "namespace": {
+      "label": "Namespace",
+      "help": "Optional. Namespace of the metafield."
+    },
+    "key": "Key",
+    "label": "Label",
+    "checkbox": "Show even if value is empty",
+    "remove": "Remove"
+  },
+  "options": {
+    "branding": {
+      "title": "Branding and Style",
+      "logo": {
+        "label": "Show logo",
+        "hint": "Logo can be uploaded in the preferences page",
+        "help": "Haven't uploaded logo yet?",
+        "action": "Upload Here",
+        "size": "Logo size"
+      },
+      "color": {
+        "title": "Primary color",
+        "black": "Black",
+        "purple": "Purple",
+        "green": "Light green",
+        "blue": "Dark blue",
+        "custom": "Custom"
+      },
+      "font": {
+        "title": "Font family",
+        "size": "Font size",
+        "find": "Find a font",
+        "dummy": "Almost before we knew it, we had left the ground.",
+        "help": "Need to add custom font?",
+        "action": "Upload Here"
+      }
+    },
+    "overview": {
+      "title": "Overview",
+      "document": {
+        "label": "Document title",
+        "placeholder": "Eg. Invoice"
+      },
+      "image": "Header image",
+      "number": "Number",
+      "amount": "Order amount",
+      "customer": "Customer number",
+      "custom": {
+        "title": "Custom number",
+        "prefix": {
+          "label": "Invoice prefix",
+          "placeholder": "Eg. INV-"
+        },
+        "suffix": {
+          "label": "Invoice suffix",
+          "placeholder": "Eg. -INV"
+        }
+      },
+      "vat": "VAT number",
+      "issue": "Issue date",
+      "due": "Due date",
+      "payment": "Payment method",
+      "processing": "Processing method",
+      "card": "Card details",
+      "shipping": "Shipping method",
+      "order_tag": "Order tag",
+      "customer_tag": "Customer tag",
+      "provider": "Shipping provider",
+      "tracking": "Tracking number",
+      "note": {
+        "title": "Add note",
+        "label": "Note",
+        "placeholder": "Eg. VAT | Delivery date"
+      },
+      "metafields": "Order meta fields"
+    },
+    "supplier": {
+      "title": "Supplier",
+      "show": "Show supplier",
+      "heading": {
+        "label": "Heading",
+        "placeholder": "Eg. Supplier",
+        "show": "Show heading"
+      },
+      "business": "Business name",
+      "address": "Address",
+      "norwegian": "Norwegian format",
+      "vat": "VAT number",
+      "number": "Registered number",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "shipping": {
+      "title": "Shipping",
+      "show": "Show shipping",
+      "heading": {
+        "label": "Heading",
+        "placeholder": "Eg. Shipping",
+        "show": "Show heading"
+      },
+      "name": "Full name",
+      "cin": "CIN number",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "company": "Company",
+      "city": "City",
+      "province": "Province",
+      "code": "Province code",
+      "zip": "Zip code",
+      "country": "Country",
+      "norwegian": "Norwegian format",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "customer": {
+      "title": "Customer",
+      "show": "Show customer",
+      "help": "Enabling customer will override the billing section. Enable this if you are using POS to show customer details on POS invoice.",
+      "heading": {
+        "label": "Heading",
+        "placeholder": "Eg. Customer",
+        "show": "Show heading"
+      },
+      "first_name": "First name",
+      "last_name": "Last name",
+      "number": "Customer number",
+      "cin": "CIN number",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "company": "Company",
+      "city": "City",
+      "province": "Province",
+      "code": "Province code",
+      "zip": "Zip code",
+      "country": "Country",
+      "norwegian": "Norwegian format",
+      "email": "Email",
+      "phone": "Phone",
+      "note": "Customer note"
+    },
+    "billing": {
+      "title": "Billing",
+      "show": "Show billing",
+      "help": "Enabling billing will override the customer.",
+      "heading": {
+        "label": "Heading",
+        "placeholder": "Eg. Billing",
+        "show": "Show heading"
+      },
+      "name": "Full name",
+      "number": "Customer number",
+      "cin": "CIN number",
+      "address1": "Address 1",
+      "address2": "Address 2",
+      "company": "Company",
+      "city": "City",
+      "code": "Province code",
+      "zip": "Zip code",
+      "country": "Country",
+      "norwegian": "Norwegian format",
+      "email": "Email",
+      "phone": "Phone"
+    },
+    "line-items": {
+      "title": "Line items",
+      "hide": "Hide removed items",
+      "checkbox": "Checkbox",
+      "image": "Product image",
+      "sku": "SKU",
+      "weight": "Weight",
+      "barcode": "Barcode number",
+      "variant": "Variant title",
+      "vendor": "Vendor",
+      "discount": "Discount",
+      "hsn": "HSN",
+      "origin": "Country code of origin",
+      "quantity": "Quantity",
+      "price": {
+        "unit": "Unit price",
+        "discounted": "Discounted price",
+        "original": "Original price",
+        "after_tax": "Unit price after tax",
+        "after_discount": "Unit price after discount"
+      },
+      "tax": {
+        "amount": "Tax amount",
+        "total": "Total tax amount (only activated if also using tax override)",
+        "percent": "Tax percentage"
+      },
+      "total": {
+        "price": "Total price",
+        "include": "Include tax and discount",
+        "round": "Round tax and total",
+        "right": "Align to the right"
+      },
+      "spacing": "Line items spacing",
+      "properties": "Product properties",
+      "metafields": "Product meta fields",
+      "sort": {
+        "label": "Sort items by",
+        "default": "Default",
+        "name_asc": "Name ascending",
+        "name_des": "Name descending",
+        "price_asc": "Price ascending",
+        "price_des": "Price descending",
+        "vendor_asc": "Vendor ascending",
+        "vendor_des": "Vendor descending",
+        "sku_asc": "SKU ascending",
+        "sku_des": "SKU descending"
+      }
+    },
+    "packing-line-items": {
+      "title": "Line items",
+      "sku": "SKU",
+      "location": "Product location",
+      "properties": "Product properties",
+      "metafields": "Product meta fields"
+    },
+    "total": {
+      "title": "Total",
+      "quantity": "Total quantity",
+      "discount": {
+        "total": "Total discount",
+        "reason": "Discount reason",
+        "hide": "Hide discount line if no discount applied"
+      },
+      "subtotal": {
+        "amount": "Subtotal",
+        "before": "Subtotal before tax"
+      },
+      "refund": "Refund",
+      "paid": "Paid by customer",
+      "payment": "Net payment",
+      "balance": "Outstanding balance",
+      "shipping": {
+        "amount": "Shipping",
+        "name": "Shipping rate name"
+      },
+      "total": {
+        "amount": "Total",
+        "exclude": "Total exclude tax"
+      },
+      "tax": {
+        "custom": "Custom tax (only activated if also using tax override)",
+        "amount": "Tax",
+        "name": "Tax name",
+        "rate": "Tax rate",
+        "title": {
+          "label": "Tax field title",
+          "placeholder": "Eg. Tax, VAT"
+        }
+      },
+      "note": {
+        "label": "Table note",
+        "placeholder": "Eg. All price will be calculated in USD"
+      }
+    },
+    "footer": {
+      "title": "Footer",
+      "order_note": "Order note",
+      "customer_note": "Customer note",
+      "details": "Additional details",
+      "words": "Total in words",
+      "heading": {
+        "label": "Note heading",
+        "show": "Show note heading",
+        "placeholder": "Eg. Note"
+      },
+      "thank": {
+        "label": "Thank you note",
+        "placeholder": "Enter thank you note"
+      },
+      "note": {
+        "label": "Footer note",
+        "placeholder": "Enter footer note",
+        "customize": "Note customization"
+      },
+      "signature": {
+        "label": "Signature",
+        "help": "Haven't uploaded signature yet?",
+        "action": "Upload Here"
+      },
+      "qr": {
+        "label": "QR code",
+        "type": "QR type",
+        "order": "Order link",
+        "zatca": "Zatca (fatoora)"
+      },
+      "link": {
+        "label": "Hyper link",
+        "type": "Link type",
+        "store": "Store link",
+        "order": "Order link",
+        "link_label": "Link label"
+      },
+      "social": {
+        "hide": "Hide social links on print",
+        "website": "Website",
+        "fb": "Facebook",
+        "twitter": "Twitter",
+        "insta": "Instagram",
+        "pinterest": "Pinterest",
+        "yt": "Youtube"
+      },
+      "metafields": "Order meta fields"
+    },
+    "paid-or-unpaid": {
+      "title": "Paid or Unpaid",
+      "watermark": "Water mark",
+      "help": "Enable this to add a watermark about whether the customer paid or not.",
+      "status": {
+        "paid_text": "The customer has paid.",
+        "unpaid_text": "The customer has not paid.",
+        "paid": "Paid",
+        "unpaid": "Unpaid"
+      }
+    }
+  }
+}

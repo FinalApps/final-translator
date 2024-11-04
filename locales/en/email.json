@@ -1,0 +1,13 @@
+{
+  "title": "Email Automation",
+  "details": {
+    "title": "Select document type",
+    "body": "Select the type of document for which you want to set up the email link. We can generate code snippets for you based on the template you've already selected."
+  },
+  "items": {
+    "invoice": "Invoice",
+    "packing": "Packing Slip",
+    "credit": "Refund / Credit note",
+    "theme": "Theme Frontend"
+  }
+}

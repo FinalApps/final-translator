@@ -1,0 +1,47 @@
+{
+  "title": "Email Automation",
+  "details": {
+    "title": "Select email type",
+    "body": "Select the type of email for which you want to customize the email body."
+  },
+  "items": {
+    "invoice": "Invoice",
+    "packing": "Packing Slip",
+    "refund": "Refund / Credit Note"
+  },
+  "customize": {
+    "title": "Customize email body",
+    "body": "You can customize this email body according to your preferences with available variables."
+  },
+  "form": {
+    "subject": {
+      "label": "Subject",
+      "placeholder": "Invoice {{number}} from {{shop_name}}"
+    },
+    "cc": "CC",
+    "bcc": "BCC",
+    "reply": "Reply to",
+    "message": {
+      "label": "Message",
+      "placeholder": "Enter your message here"
+    },
+    "pdf": {
+      "label": "Attach PDF to the email",
+      "help": "You can remove the pdf download link from the message."
+    },
+    "save": "Save",
+    "toast": "Email saved successfully"
+  },
+  "variables": {
+    "title": "Template Variables",
+    "number": "Invoice number",
+    "link": "Link to download PDF",
+    "total": "Total amount",
+    "date": "Order creation date",
+    "shop_name": "Shop name",
+    "shop_phone": "Shop phone",
+    "first_name": "Customer first name",
+    "last_name": "Customer last name",
+    "copied": "Copied"
+  }
+}

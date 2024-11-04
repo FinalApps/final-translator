@@ -1,0 +1,111 @@
+{
+  "title": "Templates",
+  "tabs": {
+    "invoice": "Invoice",
+    "packing": "Packing",
+    "refunds": "Refunds"
+  },
+  "actions": {
+    "new": "New Language",
+    "delete": "Delete language",
+    "default": "Set as default"
+  },
+  "banner": {
+    "title": "Translation of the headings",
+    "body": "To translate the SUPPLIER, SHIPPING, AND BILLING header to your language, update under Header Settings in the Cusomization.",
+    "action": "Customize Template"
+  },
+  "name": {
+    "placeholder": "Language name",
+    "label": "Edit name"
+  },
+  "modal": {
+    "new": {
+      "title": "Create new language",
+      "action": "Create",
+      "close": "Close",
+      "name": {
+        "label": "Language name",
+        "placeholder": "Spanish",
+        "error": "A language with the same name already exists"
+      },
+      "preset": {
+        "label": "Preset",
+        "none": "None"
+      },
+      "default": {
+        "label": "Default",
+        "hint": "By checking this, your default language will switch to the new one"
+      }
+    },
+    "delete": {
+      "title": "Confirm deletion",
+      "confirm": "Delete",
+      "cancel": "Cancel",
+      "content": "You are going to delete this language."
+    }
+  },
+  "toasts": {
+    "created": "New language created",
+    "deleted": "Language deleted",
+    "updated": "Language updated"
+  },
+  "form": {
+    "titles": {
+      "overview": "Overview",
+      "line_items": "Line items",
+      "footer": "Footer",
+      "total": "Total",
+      "general": "General"
+    },
+    "invoice_title" : "Title",
+    "invoice_no": "Invoice no.",
+    "order_amount": "Order amount",
+    "customer_no": "Customer no.",
+    "issue_date": "Issue date",
+    "due_date": "Due Date",
+    "payment": "Payment",
+    "payment_processing": "Payment processing method",
+    "card": "Card details",
+    "shipping_method": "Shipping method",
+    "shipping_provider": "Shipping provider",
+    "tracking_number": "Tracking number",
+    "note": "Note",
+    "items": "Items",
+    "hsn": "HSN",
+    "origin": "Country of origin",
+    "qty": "Qty",
+    "price": "Price",
+    "price_with_tax": "Tax inclusive price",
+    "price_with_discount": "Discount inclusive price",
+    "net_payment": "Net payment",
+    "tax": "Tax",
+    "total_tax": "Total tax",
+    "tax_percentage": "Ttax percentage",
+    "item_total": "Item total",
+    "total_quantity": "Total quantity",
+    "discount": "Discount",
+    "subtotal_before_tax": "Subtotal before tax",
+    "refund": "Refund",
+    "customer_paid": "Paid by customer",
+    "balance": "Balance",
+    "subtotal": "Sub total",
+    "shipping": "Shipping",
+    "shipping_rate_name": "Shipping rate name",
+    "total_exclude_tax": "Total exclude tax",
+    "total": "Total",
+    "notes": "Notes",
+    "tel": "Tel",
+    "zip": "Zip",
+    "vendor": "Vendor",
+    "sku": "SKU",
+    "cin": "CIN",
+    "order_note": "Order note",
+    "customer_note": "Customer note",
+    "paid": "Paid",
+    "payment_required": "Payment required",
+    "blank_zip": "Leave zip code blank",
+    "location": "Location",
+    "total_refund": "Total refund"
+  }
+}
