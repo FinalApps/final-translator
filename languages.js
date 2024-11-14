@@ -1,4 +1,5 @@
 export const languages = [
+  "es",
   "cs",
   "da",
   "de",
@@ -19,3 +20,4 @@ export const languages = [
   "zh-TW",
   "ko",
 ];
+// These are required languages for shopify admin except for "en" which is the source language
