@@ -26,3 +26,5 @@ This script generates i18n json files for all the languages using AWS API
 ```sh
     node index.js
 ```
+
+- The output will be generated inside a folder called `locales`
