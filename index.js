@@ -1,6 +1,6 @@
-import fs from "fs/promises";
-import path from "path";
 import "dotenv/config";
+import path from "path";
+import fs from "fs/promises";
 import {
     TranslateClient,
     TranslateTextCommand,
@@ -71,6 +71,16 @@ class TranslationProgress {
     }
 }
 
+async function getExistingTranslations(file, lang) {
+    try {
+        const filePath = path.join('./locales', lang, file);
+        const content = await fs.readFile(filePath, 'utf-8');
+        return JSON.parse(content);
+    } catch (error) {
+        return null;
+    }
+}
+
 async function translateWithRetry(text, source, target, maxRetries = 3) {
     let attempts = 0;
     while (attempts < maxRetries) {
@@ -108,17 +118,24 @@ function countTotalKeys(obj) {
     return count;
 }
 
-async function translateJSON(obj, langsToTranslate, filename, progress, displayLang = true) {
+async function translateJSON(obj, langsToTranslate, filename, progress, displayLang = true, existingTranslations = null) {
     const resp = {};
 
     for (const lang of langsToTranslate) {
         let completedKeys = 0;
         if (!displayLang) completedKeys = progress.getProgress(filename, lang);
 
+        const existing = existingTranslations || await getExistingTranslations(filename, lang);
+
         for (const [key, value] of Object.entries(obj)) {
-            const translatedValue = typeof value === 'object'
-                ? await translateJSON(value, [lang], filename, progress, false)
-                : await translateWithRetry(value, "en", lang);
+
+            // translate the key if it doesn't exist in the existing translations
+            let translatedValue;
+            if (typeof value === 'object') {
+                translatedValue = await translateJSON(value, [lang], filename, progress, false, existing?.[key])
+            } else {
+                translatedValue = existing?.[key] || await translateWithRetry(value, "en", lang);
+            }
 
             if (typeof value !== 'object') {
                 completedKeys++;
